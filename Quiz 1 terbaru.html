@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle> Latihan 1-HTML5</tittle>
+</head>
+<body>
+        <header>
+            <h1>Selamat Datang</h1>
+            <p>Belajar elemen semantik HTML5</p>
+        </header>
+        <!--bagian untuk latihan berikutnya -->
+    <nav>
+        <a href="#tentang">Tentang</a> |
+        <a href="#kursus">Kursus</a> |
+        <a href="#kontak">Kontak</a> |
+    </nav>
+    <section id="tentang">
+        <h2>Tentang Halaman Ini</h2>
+        <p>Ini merupakan section untuk menu Tentang</p>
+    </section>
+    <section id="kursus">
+        <h2>Daftar Kursus</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama Kursus</th>
+                <th>Durasi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Dasar HTML & CSS</td>
+                <td>4 Minggu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Javascript Fundamental</td>
+                <td>6 Minggu</td>
+            </tr>
+        </table>
+        <h3> Formulir Pendaftaran </h3>
+            <label for="nama_lengkap">Nama Lengkap:</label>
+            <input type="text" name="nama" id="nama" required>
+        <br><br>
+            <label for="asal_kampus">Asal Kampus:</label>
+            <input type="text" name="asal_kampus" id="asal_kampus" required>
+        <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+        <br><br>
+            <label for="no_hp">Nomor Handphone:</label>
+            <input type="text" name="no_hp" id="no_hp" required>
+        <br><br>
+            <label for="alamat">Alamat:</label>
+            <input type="text" name="alamat" id="alamat" required>
+        <br><br>
+            <label for="pilihan_kursus">Jenis Kursus:</label>
+            <br><br>
+            <input type="radio" id="dasar_html_css" name="kursus" value="Dasar_html__css">
+            <label for="dasar_html_css">Dasar HTML & CSS</label>
+            <br><br>
+            <input type="radio" id="javascript_fundamental" name="kursus" value="Javascript_fundamental">
+            <label for="javascript_fundamental">Javascript Fundamental</label>
+            <br><br>
+            <input type="radio" id="keduanya" name="kursus" value="Keduanya">
+            <label for="keduanya">Keduanya</label>
+            <br><br>
+            <label for="tanggal_masuk">Tanggal Mulai Kursus:</label>
+            <br><br>
+            <input type="date" name="tanggal_masuk" id="tanggal_masuk" required>
+        <h4>Hubungi Kami</h4>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama" required>
+        <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+        <br><br>
+            <label for="pesan">Pesan:</label><br>
+            <textarea cols="30" rows="5" id="pesan" required></textarea>
+        <br><br>
+        <form>
+            <button>Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 oleh Angel Vanescia </p>
+    </footer>
+ </body>
